@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "BeCon",
+    "slug": "becon",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "becon",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.becon.app"
+    },
+    "android": {
+      "package": "com.becon.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#4f7cff"
+        }
+      ]
+    ],
+    "extra": {
+      "supabaseUrl": "https://fwruvpdgzjgcjgkpddqj.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ3cnV2cGRnempnY2pna3BkZHFqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA5NTA4ODAsImV4cCI6MjA5NjUyNjg4MH0.5_gpv5XWF8yiHcGlMn0z23GFuvijExc9ebCJcZMJmq8"
+    }
+  }
+}
